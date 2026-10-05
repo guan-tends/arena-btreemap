@@ -39,4 +39,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `slice_ptr_get` → manual pointer arithmetic
 - `core::intrinsics::abort()` → `std::process::abort()` (std) / panic (no_std)
 
-[0.1.0]: https://github.com/guan-tends/arena-btreemap/releases/tag/v0.1.0
+[0.1.0]: https://github.com/sagelabs-dev/arena-btreemap/releases/tag/v0.1.0

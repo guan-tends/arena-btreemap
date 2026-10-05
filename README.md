@@ -2,9 +2,9 @@
 
 [![crates.io](https://img.shields.io/crates/v/arena-btreemap.svg)](https://crates.io/crates/arena-btreemap)
 [![documentation](https://docs.rs/arena-btreemap/badge.svg)](https://docs.rs/arena-btreemap)
-[![license](https://img.shields.io/crates/l/arena-btreemap.svg)](https://github.com/guan-tends/arena-btreemap#license)
-[![tests](https://img.shields.io/badge/tests-132%20passing-brightgreen.svg)](https://github.com/guan-tends/arena-btreemap)
-[![clippy](https://img.shields.io/badge/clippy-0%20warnings-brightgreen.svg)](https://github.com/guan-tends/arena-btreemap)
+[![license](https://img.shields.io/crates/l/arena-btreemap.svg)](https://github.com/sagelabs-dev/arena-btreemap#license)
+[![tests](https://img.shields.io/badge/tests-132%20passing-brightgreen.svg)](https://github.com/sagelabs-dev/arena-btreemap)
+[![clippy](https://img.shields.io/badge/clippy-0%20warnings-brightgreen.svg)](https://github.com/sagelabs-dev/arena-btreemap)
 
 A [`BTreeMap`](https://doc.rust-lang.org/std/collections/struct.BTreeMap.html) that supports custom allocators on **stable Rust**, ported directly from the standard library.
 
