@@ -17,6 +17,9 @@ jobs:
         run: |
           git config --global --add safe.directory '*'
           git clone --depth 1 "http://guan:${{ github.token }}@gitea:3000/guan/arena-btreemap.git" .repo
+      - name: Add clippy + rustfmt
+        working-directory: .repo
+        run: rustup component add clippy rustfmt
       - name: Clippy
         working-directory: .repo
         run: cargo clippy --all-targets -- -D warnings
